@@ -1,0 +1,43 @@
+{
+  "name": "lintingtst",
+  "version": "1.0.0",
+  "description": "it is about testing linting through webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build:dev": "webpack",
+    "build:production": "cross-env NODE_ENV=production webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Bindhyachal Tiwari",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.9.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "sass": "^1.49.8",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-arrow-functions": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^6.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1"
+  }
+}

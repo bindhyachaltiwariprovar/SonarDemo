@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": false
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "extends": ["airbnb"],
+    "rules": {
+        "max-len": [1, 70, 2, { "ignoreComments": true }],
+        "eol-last": "off",
+        "linebreak-style": "off"
+    }
+}
